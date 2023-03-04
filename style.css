@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: block;
+}
+
+.wrapper.show{
+    display: none;
+}
+
+.form .input-group {
+    position: relative;
+    margin: 20px 0 40px;
+    max-width: 300px;
+}
+
+.input-group input {
+    background-color: transparent;
+    border: 2px solid #fff;
+    display: block;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 10px;
+}
+
+.input-group input::placeholder{
+    color: #fff;
+}
+
+.input-group label {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* .hero {
+    display: none;
+}
+
+.hero.show {
+    display: block;
+    transition: all 2s ease-in;
+} */
